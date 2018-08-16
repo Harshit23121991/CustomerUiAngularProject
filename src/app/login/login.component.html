@@ -1,0 +1,21 @@
+<div class="container">
+  <h1>Login </h1>
+  <form autocomplete="off"> 
+      <div class="row">
+        <div class="col-md-2"><label for="email">Email address:</label></div>
+      <div class="col-md-4"> 
+      <input type="email" class="form-control" id="email" name="email" [(ngModel)]="email">
+     </div>
+     </div>
+<br>
+  <div class="row">
+     <div class="col-md-2"> <label for="pwd">Password:</label></div>
+  <div class="col-md-4"> 
+   <input type="password" class="form-control" id="pwd ex1"  name="passowrd" [(ngModel)]="password">
+   </div>
+  </div>
+  <div class="row">
+  <button class="btn btn-default btn-info buttonStyle" (click)="login()">Login</button>
+  </div>
+  </form>
+</div>
